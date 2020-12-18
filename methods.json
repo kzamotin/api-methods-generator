@@ -1,0 +1,6 @@
+[
+{ "method": "get_system_info" },
+{ "method": "get_status" },
+{ "method": "set_status", "params": { "status": "Available", "mood": "" } },
+{ "method": "make_payment", "params": { "from_wallet": "wallet", "to_wallet": "account", "amount": "123", "comment": "gift" } }
+]
